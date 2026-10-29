@@ -1,0 +1,26 @@
+# companies.txt — one `ats:token` per line. Blank lines and # comments ignored.
+# Copy this file to companies.txt and replace the examples with your targets.
+#
+# These are direct ATS feeds: full JD text, no bot blocking, and you see a req
+# the day it opens rather than days later when aggregators pick it up. This is
+# the highest-value source in the whole tool.
+#
+# HOW TO ADD A COMPANY (5 seconds each)
+#   python3 sources.py discover <careers page URL>
+#     -> prints the `ats:token` line to add here, if it can find one
+#   python3 sources.py probe lever:cred
+#     -> confirms it returns real India/remote rows
+#
+# If discover finds nothing, open the careers page, click Apply, and read the
+# domain you land on:
+#   boards.greenhouse.io/TOKEN      -> greenhouse:TOKEN
+#   jobs.lever.co/TOKEN             -> lever:TOKEN
+#   jobs.ashbyhq.com/TOKEN          -> ashby:TOKEN
+#   jobs.smartrecruiters.com/TOKEN  -> smartrecruiters:TOKEN
+#   apply.workable.com/TOKEN        -> workable:TOKEN
+#   TOKEN.recruitee.com             -> recruitee:TOKEN
+
+greenhouse:stripe
+greenhouse:groww
+lever:cred
+ashby:sarvam

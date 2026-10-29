@@ -1,0 +1,17 @@
+# Personal data — never commit
+facts.md
+companies.txt
+jobs.csv
+resumes/*.txt
+ntfy_topic.txt
+jobagent.db
+jobagent.db-*
+.jobagent.lock
+*.pdf
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
